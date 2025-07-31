@@ -83,7 +83,7 @@ public class plateLowererController : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (gameObject.activeSelf && collision.gameObject.GetComponent<dragObject>() != null)
+        if (gameObject.activeSelf && gameObject.activeInHierarchy && collision.gameObject.GetComponent<dragObject>() != null)
         {
             removeWeight(collision.gameObject.GetComponent<dragObject>());
            
