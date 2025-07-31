@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InitialTweenController : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class InitialTweenController : MonoBehaviour
     [SerializeField] List<Vector2> positionsBottom = new List<Vector2>();
     int actTween = 0;
     [SerializeField] float initialWat;
+    [SerializeField] dialogueScriptableObjects dialogue;
+    [SerializeField] GameObject pannel;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,7 +43,25 @@ public class InitialTweenController : MonoBehaviour
         }
         else
         {
-            //TODO: HACER EL FINAL DE LA ESCENA
+            Invoke("showPanel", timesToWait[actTween]);
+            
         }
+    }
+
+    void showPanel()
+    {
+        pannel.SetActive(true);
+        Image image = pannel.GetComponent<Image>();
+        LeanTween.value(gameObject, 0f, 1f, 0.5f).setOnUpdate((float val) => {
+            Color newColor = image.color;
+            newColor.a = val;
+            image.color = newColor;
+        }).setOnComplete(startDialogue);
+    }
+
+    void startDialogue()
+    {
+        //LeanTween.color(pannel, new Color(1, 1, 1, 1), 0.2f);
+        DialogueManager.instance.startDialogue(dialogue);
     }
 }

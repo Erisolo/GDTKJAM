@@ -29,15 +29,15 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    private void Start()
+    public void startDialogue(dialogueScriptableObjects dialogue)
     {
+        actDialogo = dialogue;
         if (actDialogo != null)
         {
             actLine = 0;
             dialogueText.gameObject.SetActive(true);
             nextLine();
         }
-
     }
     // Update is called once per frame
     void Update()
