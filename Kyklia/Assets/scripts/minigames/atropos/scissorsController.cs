@@ -8,10 +8,11 @@ public class scissorsController : MonoBehaviour
     Transform dest;
     [SerializeField] float timeTo;
     bool inDest = false;
+    [SerializeField] float offset;
     // Start is called before the first frame update
     void Start()
     {
-        LeanTween.move(gameObject, new Vector2(transform.position.x, dest.position.y), timeTo).setOnComplete(tweenFinish);
+        LeanTween.move(gameObject, new Vector2(transform.position.x, dest.position.y-offset), timeTo).setOnComplete(tweenFinish);
     }
 
     void tweenFinish()
