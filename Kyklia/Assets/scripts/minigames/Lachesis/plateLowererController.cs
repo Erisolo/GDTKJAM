@@ -48,6 +48,10 @@ public class plateLowererController : MonoBehaviour
     {
         return actTotalWeight;
     }
+    public int howManyInSet()
+    {
+        return weights.Count;
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.GetComponent<dragObject>() != null)
