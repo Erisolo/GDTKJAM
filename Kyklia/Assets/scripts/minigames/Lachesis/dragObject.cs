@@ -9,6 +9,7 @@ public class dragObject : MonoBehaviour
     bool dragging = false;
     Collider2D _collider;
     Vector3 offset;
+    public int weight;
 
     void Start()
     {
