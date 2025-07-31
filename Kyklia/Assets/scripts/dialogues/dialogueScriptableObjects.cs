@@ -15,4 +15,6 @@ public class dialogueScriptableObjects : ScriptableObject
 
     //tantos como choices
     public List<dialogueScriptableObjects> next;
+
+    public string sceneToChangeTo;
 }

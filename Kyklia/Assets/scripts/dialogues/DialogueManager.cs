@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -28,6 +29,20 @@ public class DialogueManager : MonoBehaviour
             instance = this;
         }
     }
+    private void Start()
+    {
+        if(GameManager.Instance != null)
+        {
+            actDialogo = GameManager.Instance.requestDialogue(SceneManager.GetActiveScene().name);
+            if (actDialogo != null)
+            {
+                actLine = 0;
+                dialogueText.gameObject.SetActive(true);
+                nextLine();
+            }
+
+        }
+    }
 
     public void startDialogue(dialogueScriptableObjects dialogue)
     {
@@ -42,9 +57,12 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0) && !actDialogo.multipleChoice)
+        if (actDialogo != null)
         {
-            keyPressed();
+            if (Input.GetMouseButtonDown(0) && !actDialogo.multipleChoice)
+            {
+                keyPressed();
+            }
         }
        
     }
@@ -98,9 +116,9 @@ public class DialogueManager : MonoBehaviour
                 nextLine();
             }
         }
-        else
+        else if (actDialogo.sceneToChangeTo != null)
         {
-            //TODO: FIN DE DIÁLOGOS
+            GameManager.Instance.changeScene(actDialogo.sceneToChangeTo);
         }
     }
 
