@@ -4,6 +4,7 @@ using System.Collections.Specialized;
 using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class GameManager : MonoBehaviour
 
 
     public static GameManager Instance;
+    [SerializeField] Image sceneTransicioner;
 
     private void Awake()
     {
@@ -44,9 +46,37 @@ public class GameManager : MonoBehaviour
     {
         
     }
-    public void changeScene(string scene)
+    public void changeScene(string scene, bool makeTrans = true)
+    {
+        if (makeTrans)
+        {
+            sceneTransicioner.gameObject.SetActive(true);
+            LeanTween.value(gameObject, 0f, 1f, 0.5f).setOnUpdate((float val) =>
+            {
+                Color newColor = sceneTransicioner.color;
+                newColor.a = val;
+                sceneTransicioner.color = newColor;
+            }).setOnComplete(()=> { changeSceneAfterTween(scene); });
+        }
+        else
+        {
+            SceneManager.LoadScene(scene);
+        }
+    }
+    void changeSceneAfterTween(string scene)
     {
         SceneManager.LoadScene(scene);
+        LeanTween.value(gameObject, 1f, 0f, 0.5f).setOnUpdate((float val) =>
+        {
+            Color newColor = sceneTransicioner.color;
+            newColor.a = val;
+            sceneTransicioner.color = newColor;
+        }).setOnComplete(turnOfftransitioner );
+    }
+
+    void turnOfftransitioner()
+    {
+        sceneTransicioner.gameObject.SetActive(false);
     }
 
     void completeMinigame(string moira)
