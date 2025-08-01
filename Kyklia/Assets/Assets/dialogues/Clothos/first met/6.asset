@@ -10,12 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: 4
+  m_Name: 6
   m_EditorClassIdentifier: 
-  multipleChoice: 0
-  choices: []
-  lines:
-  - what are you doing here anyway?
+  multipleChoice: 1
+  choices:
+  - Moirai? What is that
+  - The moirai? No kidding! with the threads and everything?
+  - Yeah, I do feel very young.
+  lines: []
   next:
-  - {fileID: 11400000, guid: 2431b5d9869423348875bb35d30636b7, type: 2}
+  - {fileID: 11400000, guid: 016d3308ae1a427459cbd82c67becb49, type: 2}
+  - {fileID: 11400000, guid: 8cc3aaa7e86f2744fb5799c66a0b36be, type: 2}
+  - {fileID: 11400000, guid: 8c77b122d1dd41d44a0d47febee489ec, type: 2}
   sceneToChangeTo: 

@@ -10,12 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: 4
+  m_Name: 10a&c
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
   lines:
-  - what are you doing here anyway?
+  - YOU DON'T HAVE A NAME???
+  - THAT'S SO COOL! I GET TO NAME YOU!
+  - your name will be...
+  - Athakyklos!
+  - Athy for short!!
+  - How does that sound?
   next:
-  - {fileID: 11400000, guid: 2431b5d9869423348875bb35d30636b7, type: 2}
+  - {fileID: 11400000, guid: 24bbda5d66a965b488f46f2648da7881, type: 2}
   sceneToChangeTo: 

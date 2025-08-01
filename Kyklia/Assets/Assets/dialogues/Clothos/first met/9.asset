@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
+  m_Name: 9
+  m_EditorClassIdentifier: 
+  multipleChoice: 1
+  choices:
+  - I... I don't think I have.
+  - Of course I have a name! It is... Um...
+  - Nice to meet you, Clothos! I don't have a name! Where do i find one?
+  lines: []
+  next:
+  - {fileID: 11400000, guid: 0d7312bbd1b11464a85731aad6a5954d, type: 2}
+  - {fileID: 11400000, guid: c0f78bae656d9554e919adc2b0156400, type: 2}
+  - {fileID: 11400000, guid: 0d7312bbd1b11464a85731aad6a5954d, type: 2}
+  sceneToChangeTo: 

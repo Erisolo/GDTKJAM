@@ -20,4 +20,4 @@ MonoBehaviour:
   - Lach hasn't cleaned in a while...
   - Let me get you on a table!
   next: []
-  sceneToChangeTo: talkingScene
+  sceneToChangeTo: Clothos

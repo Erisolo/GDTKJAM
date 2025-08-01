@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: 4
+  m_Name: 5
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
   lines:
-  - what are you doing here anyway?
+  - You are in the Moirai's workshop!
+  - I don't even know how you got in.
+  - You must've entered as an egg through the cracks in the windows.
   next:
-  - {fileID: 11400000, guid: 2431b5d9869423348875bb35d30636b7, type: 2}
+  - {fileID: 11400000, guid: c19d57a72dbc53543b9c05cfd27e1f6d, type: 2}
   sceneToChangeTo: 

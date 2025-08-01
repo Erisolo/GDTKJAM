@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  multipleChoice: 0
-  choices: []
-  lines:
-  - what are you doing here anyway?
+  multipleChoice: 1
+  choices:
+  - Where am I?
+  lines: []
   next:
-  - {fileID: 11400000, guid: 2431b5d9869423348875bb35d30636b7, type: 2}
+  - {fileID: 11400000, guid: c264ef8c1f38f694fb1fda4597c248cf, type: 2}
   sceneToChangeTo: 

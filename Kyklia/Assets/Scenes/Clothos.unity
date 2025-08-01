@@ -1470,8 +1470,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonText: {fileID: 593318024}
-  normalColor: {r: 1, g: 0, b: 0, a: 1}
-  hoverColor: {r: 0, g: 0, b: 0, a: 1}
+  normalColor: {r: 0, g: 0, b: 0, a: 1}
+  hoverColor: {r: 1, g: 0, b: 0, a: 1}
   opNumber: 2
 --- !u!1 &1948458181
 GameObject:

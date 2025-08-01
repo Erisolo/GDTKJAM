@@ -10,12 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: 4
+  m_Name: 8
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
   lines:
-  - what are you doing here anyway?
+  - My name is Clothos. Nice to meet you miss Spider!
+  - Or is it mister?
+  - Well, it doesn't matter.
+  - I'm in charge of spinning the thread of fate. That's why I have the big wheel.
+  - (I bet you'd be way more excited if you were a little mouse)
+  - What's your name? Do you have one?
   next:
-  - {fileID: 11400000, guid: 2431b5d9869423348875bb35d30636b7, type: 2}
+  - {fileID: 11400000, guid: 05d6bc249ddfcc2449b0c2eeade8c8b2, type: 2}
   sceneToChangeTo: 

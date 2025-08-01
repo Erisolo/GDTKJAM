@@ -420,7 +420,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Clothos:
-  - {fileID: 11400000, guid: 4bca64d83e32fda4cbd92f764581f39c, type: 2}
+  - {fileID: 11400000, guid: 0588a238cb56bc948a02e60816cb43a4, type: 2}
   Lachesis: []
   Atropos: []
 --- !u!1 &630724934

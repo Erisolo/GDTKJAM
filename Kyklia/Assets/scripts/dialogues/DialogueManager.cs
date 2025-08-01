@@ -148,7 +148,7 @@ public class DialogueManager : MonoBehaviour
             for(int i = 0; i < actDialogo.choices.Count; i++)
             {
                 answerOptions[i].gameObject.SetActive(true);
-                answerOptions[i].GetComponentInChildren<TMP_Text>().text = actDialogo.choices[i];
+                answerOptions[i].GetComponentInChildren<TMP_Text>().text = ">> " + actDialogo.choices[i];
             }
         }
         else
@@ -162,7 +162,6 @@ public class DialogueManager : MonoBehaviour
         //desactivamos todos los botones
         for(int i = 0; i < answerOptions.Count; i++)
         {
-            Debug.Log("button off");
             answerOptions[i].gameObject.SetActive(false);
         }
 
