@@ -10,13 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: last
+  m_Name: 5a
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
   lines:
-  - well, by then.
-  next: []
+  - You're still mad about your leg?
+  - I said I was sorry!
+  - Cut me some slack, I'm here all day stuck just spinning this stupid wheel.
+  - I hadn't talked with anyone outside my sisters for what? A lustrum? I had forgot
+    how to!
+  - ...
+  - 'But still, I''m sorry. '
+  next:
+  - {fileID: 11400000, guid: 9827860578c041a4ba285c353bdf59dd, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
-  openMap: 1
+  openMap: 0

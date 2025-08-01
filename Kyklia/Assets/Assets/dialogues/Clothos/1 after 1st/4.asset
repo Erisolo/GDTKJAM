@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  multipleChoice: 1
+  choices:
+  - yeah, you *should* thank me. You didn't even pay me!
+  - Do you know all that information just from that thread?
+  - I wish I was like her...
+  lines: []
+  next:
+  - {fileID: 11400000, guid: 3c905a3a53554b84db3f05c6b9be7fef, type: 2}
+  - {fileID: 11400000, guid: b22a9e21178448741a37fdd3c074ea41, type: 2}
+  - {fileID: 11400000, guid: 08c1c0b7a7f6d9b47ae081e92571cbba, type: 2}
+  sceneToChangeTo: 
+  notifyGMDialogueDone: 
+  openMap: 0

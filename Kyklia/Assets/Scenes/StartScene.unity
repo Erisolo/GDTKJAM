@@ -2019,13 +2019,53 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 635212786}
     - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Atropos.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Clothos.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Lachesis.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
       propertyPath: Clothos.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 26dafb3f214e34646b2558080abc8498, type: 2}
+      objectReference: {fileID: 11400000, guid: 0588a238cb56bc948a02e60816cb43a4, type: 2}
     - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
       propertyPath: Clothos.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 0588a238cb56bc948a02e60816cb43a4, type: 2}
+      objectReference: {fileID: 11400000, guid: 26dafb3f214e34646b2558080abc8498, type: 2}
+    - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Clothos.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6b52f0825d8dfac49a240a0ca0223f4e, type: 2}
+    - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Clothos.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 717528bc48568474d91643fb426b9eb1, type: 2}
+    - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Clothos.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 33fb7fa14cb2a3543aa1707dafabef08, type: 2}
+    - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Clothos.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7499203d805d41846a07a229d37be4a9, type: 2}
+    - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Clothos.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5cb8d9f25f463004083a72d585c5f279, type: 2}
+    - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Clothos.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5cb8d9f25f463004083a72d585c5f279, type: 2}
+    - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Lachesis.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8202a3679312efe46bf9c5b2b157663e, type: 2}
     - target: {fileID: 9006235303331820017, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1410.7935

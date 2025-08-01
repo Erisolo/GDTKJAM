@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  multipleChoice: 1
+  choices:
+  - 'Yeah! He will come back! '
+  - But what about the other soldiers?
+  lines: []
+  next:
+  - {fileID: 11400000, guid: 6e942b2c04918e742ad3fa4edcd87a8b, type: 2}
+  - {fileID: 11400000, guid: 8addc67c73347d548b9edf1b3a3c79f0, type: 2}
+  sceneToChangeTo: 
+  notifyGMDialogueDone: 
+  openMap: 0

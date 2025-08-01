@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
+  m_Name: 4a
+  m_EditorClassIdentifier: 
+  multipleChoice: 0
+  choices: []
+  lines:
+  - Yeah, I guess some things are worth dying over.
+  - '*I* would know about that too.'
+  - But I wouldn't want to have been born a spartan boy.
+  next:
+  - {fileID: 11400000, guid: 3aef70a76bdb3a34fb4d5bb93e207c76, type: 2}
+  sceneToChangeTo: 
+  notifyGMDialogueDone: 
+  openMap: 0

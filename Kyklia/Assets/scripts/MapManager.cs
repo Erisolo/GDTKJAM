@@ -30,7 +30,7 @@ public class MapManager : MonoBehaviour
        {
             Debug.Log("buttonpressed");
             tweening = true;
-            GameManager.Instance.changeScene(butt);
+            GameManager.Instance.changeScene(butt, false);
             LeanTween.moveY(rt, rt.anchoredPosition.y - distance, timeToTween).setOnComplete(() => { gameObject.SetActive(false); });
        }
        else
