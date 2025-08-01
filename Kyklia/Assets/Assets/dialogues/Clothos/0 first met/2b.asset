@@ -15,9 +15,10 @@ MonoBehaviour:
   multipleChoice: 0
   choices: []
   lines:
-  - 'OH! I hadn''t thought about it! yeah, that was rude...? '
+  - OH! I hadn't thought about it! yeah, that was rude...
   - I'm sorry, little spider. I didn't mean it in a bad way
   - 'Forgive me, please.. '
   next:
   - {fileID: 11400000, guid: 279fd3a567143064a9eb1daa1151bf41, type: 2}
   sceneToChangeTo: 
+  notifyGMDialogueDone: 

@@ -17,6 +17,7 @@ public class DialogueManager : MonoBehaviour
     int actLine;
     [SerializeField] float letterDelay = 0.05f;
     [SerializeField] List<Button> answerOptions = new List<Button>();
+    bool talking = false;
 
     private void Awake()
     {
@@ -36,6 +37,7 @@ public class DialogueManager : MonoBehaviour
             actDialogo = GameManager.Instance.requestDialogue(SceneManager.GetActiveScene().name);
             if (actDialogo != null)
             {
+                talking = true;
                 actLine = 0;
                 dialogueText.gameObject.SetActive(true);
                 nextLine();
@@ -49,6 +51,7 @@ public class DialogueManager : MonoBehaviour
         actDialogo = dialogue;
         if (actDialogo != null)
         {
+            talking=true;
             actLine = 0;
             dialogueText.gameObject.SetActive(true);
             nextLine();
@@ -57,7 +60,7 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (actDialogo != null)
+        if (talking && actDialogo != null)
         {
             if (Input.GetMouseButtonDown(0) && !actDialogo.multipleChoice)
             {
