@@ -79,7 +79,7 @@ public class GameManager : MonoBehaviour
         sceneTransicioner.gameObject.SetActive(false);
     }
 
-    void completeMinigame(string moira)
+    public void addDialogueAsDone(string moira)
     {
         if (moira == "Clothos")
         {

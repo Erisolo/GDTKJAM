@@ -11,7 +11,7 @@ public class paintSelector : MonoBehaviour
     [SerializeField] Vector2 offset;
     [SerializeField] List<threadButton> threadList = new List<threadButton>();
     paintButton actPaint;
-    [SerializeField] 
+    bool won = false;
 
     private void Awake()
     {
@@ -54,7 +54,7 @@ public class paintSelector : MonoBehaviour
     }
     public void threadPainted(threadButton thread)
     {
-        if (actPaint != null)
+        if (!won && actPaint != null)
         {
             if (actPaint == thread.getColor())
                 thread.setColor(null);
@@ -83,12 +83,20 @@ public class paintSelector : MonoBehaviour
                 
                 if(valid)
                 {
-                    //TODO: IMPLEMENTAR FIN DEL MINIJUEGO
+                    won = true;
+                    Invoke("notifyWin", 1);
+                    //maybe a cool animation or a banner
                 }
 
             }
             
         }
+    }
+
+    void notifyWin()
+    {
+        GameManager.Instance.addDialogueAsDone("Clothos");
+        GameManager.Instance.changeScene("Clothos");
     }
 
     private void OnDestroy()

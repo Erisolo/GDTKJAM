@@ -101,6 +101,9 @@ public class DialogueManager : MonoBehaviour
 
     void nextDialogue(int op)
     {
+        if (actDialogo.notifyGMDialogueDone != null)
+            GameManager.Instance.addDialogueAsDone(actDialogo.notifyGMDialogueDone);
+
         if (actDialogo.next.Count > 0)
         {
             actDialogo = actDialogo.next[op];

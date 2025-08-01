@@ -17,4 +17,6 @@ public class dialogueScriptableObjects : ScriptableObject
     public List<dialogueScriptableObjects> next;
 
     public string sceneToChangeTo;
+
+    public string notifyGMDialogueDone;
 }
