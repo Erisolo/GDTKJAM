@@ -122,9 +122,15 @@ public class DialogueManager : MonoBehaviour
                 nextLine();
             }
         }
-        else if (actDialogo.sceneToChangeTo != null)
+        else if (actDialogo.sceneToChangeTo != "")
         {
+            talking = false;
             GameManager.Instance.changeScene(actDialogo.sceneToChangeTo);
+        }
+        else if(actDialogo.openMap)
+        {
+            talking = false;
+            GameManager.Instance.openMap();
         }
     }
 

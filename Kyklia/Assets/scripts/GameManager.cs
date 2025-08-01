@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
 
     public static GameManager Instance;
     [SerializeField] Image sceneTransicioner;
+    [SerializeField] MapManager mapManager;
 
     private void Awake()
     {
@@ -127,5 +128,10 @@ public class GameManager : MonoBehaviour
         //if its one of the moiras room, it gets a line
         //if not, it doesnt
         return getRoomDialogue(room);
+    }
+
+    public void openMap()
+    {
+        mapManager.openMap();
     }
 }

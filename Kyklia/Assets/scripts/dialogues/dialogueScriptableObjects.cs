@@ -19,4 +19,6 @@ public class dialogueScriptableObjects : ScriptableObject
     public string sceneToChangeTo;
 
     public string notifyGMDialogueDone;
+
+    public bool openMap;
 }
