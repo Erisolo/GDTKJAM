@@ -15,11 +15,10 @@ MonoBehaviour:
   multipleChoice: 0
   choices: []
   lines:
-  - ...
   - I will spin their threads when the time comes.
-  - And...
   - I'll make them strong as well.
-  next: []
+  next:
+  - {fileID: 11400000, guid: 37d6a5299e84be44fa521c9c72fe1a5d, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

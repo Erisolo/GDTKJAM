@@ -2020,15 +2020,15 @@ PrefabInstance:
       objectReference: {fileID: 635212786}
     - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
       propertyPath: Atropos.Array.size
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
       propertyPath: Clothos.Array.size
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
       propertyPath: Lachesis.Array.size
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
       propertyPath: Clothos.Array.data[0]

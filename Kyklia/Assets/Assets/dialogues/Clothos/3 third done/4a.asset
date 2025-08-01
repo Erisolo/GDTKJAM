@@ -10,13 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: 13a (game)
+  m_Name: 4a
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
   lines:
-  - On I bring it!
-  next: []
-  sceneToChangeTo: ClothosGame3
+  - No, not really.
+  - When the yarn runs thin, the thread I'm spinning will run short.
+  - It... It has always happened.
+  - ...
+  next:
+  - {fileID: 11400000, guid: 05cedf4b4cbf53e4aae8e497995d8815, type: 2}
+  sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

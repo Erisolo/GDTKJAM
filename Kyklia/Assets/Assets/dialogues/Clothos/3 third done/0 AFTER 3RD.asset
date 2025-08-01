@@ -17,7 +17,10 @@ MonoBehaviour:
   lines:
   - "\u266A\u266B<i>Thread pulled soft, small and frail</i>\u266A\u266B"
   - "\u266A\u266B<i>This thread is as loved as your skin is pale</i>\u266A\u266B"
-  next: []
+  - Theophiles. Oh, poor kid.
+  - His parent's will be devastated...
+  next:
+  - {fileID: 11400000, guid: 34577b52b5e6d5145bc7c23756e06400, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

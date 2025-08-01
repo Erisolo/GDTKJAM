@@ -19,7 +19,8 @@ MonoBehaviour:
   - There's no reason to worry!
   - I spun his thread nice and tight, he will survive ANYTHING Lach throws his way!
   - Diokles, you've got this!
-  next: []
+  next:
+  - {fileID: 11400000, guid: 0d15e4950b07ce64db1f2c94d81e6737, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

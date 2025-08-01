@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
-  lines: []
-  next: []
+  lines:
+  - Well, all of that is Lach's resposibility after all.
+  next:
+  - {fileID: 11400000, guid: 22ecd42807e969941ad209fe6f4e15d9, type: 2}
   sceneToChangeTo: 
-  notifyGMDialogueDone: 
+  notifyGMDialogueDone: Clothos
   openMap: 0

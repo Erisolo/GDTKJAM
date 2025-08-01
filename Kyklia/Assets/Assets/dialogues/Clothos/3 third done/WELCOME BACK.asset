@@ -15,9 +15,10 @@ MonoBehaviour:
   multipleChoice: 0
   choices: []
   lines:
-  - Athy! You're back!
+  - Oh! Athy, hi!
+  - It is so fun to spin with friends!
   next:
-  - {fileID: 11400000, guid: 7c443c3447929c040af4760e3b89386c, type: 2}
+  - {fileID: 11400000, guid: e3ba7343b59059341a6e0d6db4a5a435, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

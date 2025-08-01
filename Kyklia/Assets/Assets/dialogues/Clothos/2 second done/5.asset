@@ -20,7 +20,7 @@ MonoBehaviour:
   - And after...
   - With his broad back and his father's training, he probably will come back.
   next:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 90ad76e7c15db4f40aafa2b5587b6a56, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

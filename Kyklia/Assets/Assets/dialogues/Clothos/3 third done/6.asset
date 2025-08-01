@@ -10,13 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: 13a (game)
+  m_Name: 6
   m_EditorClassIdentifier: 
-  multipleChoice: 0
-  choices: []
-  lines:
-  - On I bring it!
-  next: []
-  sceneToChangeTo: ClothosGame3
+  multipleChoice: 1
+  choices:
+  - Yeah! He will! Godspeed, Theo!
+  - ...
+  lines: []
+  next:
+  - {fileID: 11400000, guid: 52e3d4d9b8d5dab4284bf5ef3bb7b0fb, type: 2}
+  - {fileID: 11400000, guid: 3507b805b6353e64f8dfe534a98614d8, type: 2}
+  sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

@@ -17,7 +17,7 @@ MonoBehaviour:
   - And what about the other side?
   lines: []
   next:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 0eb0f2833281a494aba7e487ee9a20ff, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0
