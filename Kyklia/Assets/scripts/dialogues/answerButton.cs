@@ -16,7 +16,10 @@ public class answerButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     {
         buttonText.color = hoverColor;
     }
-
+    private void OnEnable()
+    {
+        buttonText.color = normalColor;
+    }
     public void OnPointerExit(PointerEventData eventData)
     {
         buttonText.color = normalColor;

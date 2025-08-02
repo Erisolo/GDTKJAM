@@ -43,10 +43,7 @@ public class paintSelector : MonoBehaviour
     }
     public void paintTaken(paintButton paint)
     {
-        if (actPaint == paint)
-            actPaint = null;
-
-        else
+        if(paint != actPaint)
         {
             actPaint = paint;
             img.color = actPaint.color;
