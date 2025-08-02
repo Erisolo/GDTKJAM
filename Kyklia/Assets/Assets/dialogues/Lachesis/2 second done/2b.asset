@@ -10,15 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: goDoSomethingElse
+  m_Name: 2b
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
   lines:
-  - Hi, little nit.
-  - Don't you have anything to do?
-  - I'm not very busy over here, dear spider.
+  - I... Can't remember why we do it.
+  - Clothos just started doing it one day, and we all just follow.
+  - We listen to the thread, we sing its melody.
+  - It's quite soothing, actually.
+  - This Diokles... he's so easy to read.
   next: []
   sceneToChangeTo: 
   notifyGMDialogueDone: 
-  openMap: 1
+  openMap: 0

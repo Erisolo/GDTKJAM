@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: goDoSomethingElse
+  m_Name: 6
   m_EditorClassIdentifier: 
-  multipleChoice: 0
-  choices: []
-  lines:
-  - Hi, little nit.
-  - Don't you have anything to do?
-  - I'm not very busy over here, dear spider.
-  next: []
+  multipleChoice: 1
+  choices:
+  - WHAT?! I DYED THAT LIFE, AND NOW YOU'RE GOING TO JUST CUT IT?
+  - Oh... I guess you're right.
+  lines: []
+  next:
+  - {fileID: 11400000, guid: 817151677c0f88546b43abb60566600b, type: 2}
+  - {fileID: 11400000, guid: d94cacafa8513e04685e4bd9b60a6999, type: 2}
   sceneToChangeTo: 
-  notifyGMDialogueDone: 
-  openMap: 1
+  notifyGMDialogueDone: Lachesis
+  openMap: 0

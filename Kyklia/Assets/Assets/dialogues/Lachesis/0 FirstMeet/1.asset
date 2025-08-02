@@ -10,16 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: 0
+  m_Name: 1
   m_EditorClassIdentifier: 
-  multipleChoice: 0
-  choices: []
-  lines:
-  - Clothos, I've told you not to-
-  - You're not Clothos.
-  - Who are you, little guy?
+  multipleChoice: 1
+  choices:
+  - I'm Athakyklos. You can call me Athy.
+  - I'm Athakyklos. Just Athakyklos
+  - I'm only a spider. I don't use names and all that.
+  lines: []
   next:
-  - {fileID: 11400000, guid: 32463654656ee29479c8b39297165c95, type: 2}
+  - {fileID: 11400000, guid: d2dfa21b41784b64fa7de09a5bfd84f8, type: 2}
+  - {fileID: 11400000, guid: cc60375918016a7468aac31873adbd8d, type: 2}
+  - {fileID: 11400000, guid: f4f1f2f62e6899e48b0f6436af834757, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

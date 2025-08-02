@@ -2066,6 +2066,14 @@ PrefabInstance:
       propertyPath: Lachesis.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 8202a3679312efe46bf9c5b2b157663e, type: 2}
+    - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Lachesis.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2df3261bb1a8f0348861e6cfd13dd3fa, type: 2}
+    - target: {fileID: 8323640968719530629, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Lachesis.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 22d90e419a602e242858a5804da2542c, type: 2}
     - target: {fileID: 9006235303331820017, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1410.7935

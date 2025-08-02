@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: goDoSomethingElse
+  m_Name: 0 AFTER 1ST
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
   lines:
-  - Hi, little nit.
-  - Don't you have anything to do?
-  - I'm not very busy over here, dear spider.
-  next: []
+  - "\u266A\u266B<i>Bread and fire, wool and thread</i>\u266A\u266B"
+  - "\u266A\u266B<i>Your house is full, your head as well</i>\u266A\u266B"
+  next:
+  - {fileID: 11400000, guid: 5f84b6546e588b648b4803d16afd2f22, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
-  openMap: 1
+  openMap: 0
