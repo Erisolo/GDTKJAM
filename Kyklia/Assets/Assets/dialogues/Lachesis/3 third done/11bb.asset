@@ -17,7 +17,9 @@ MonoBehaviour:
   - No, you're right. That's not tragic at all.
   - I still think it is wrong. Theo deserved better.
   lines: []
-  next: []
+  next:
+  - {fileID: 11400000, guid: 5334c0368f204df449d794da99507167, type: 2}
+  - {fileID: 11400000, guid: b9d6f4d7ce769b2449b7aabcc9110b7f, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

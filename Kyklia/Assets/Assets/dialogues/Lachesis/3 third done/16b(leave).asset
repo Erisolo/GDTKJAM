@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
-  lines: []
+  lines:
+  - Of course. I'll be here if you need me.
   next: []
   sceneToChangeTo: 
   notifyGMDialogueDone: 
-  openMap: 0
+  openMap: 1

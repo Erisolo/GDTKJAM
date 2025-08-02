@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
-  lines: []
-  next: []
+  lines:
+  - Sure. Make sure you don't get bored.
+  - "\u266A\u266B<i>Pages and pages, books and pens</i>\u266A\u266B"
+  next:
+  - {fileID: 11400000, guid: 1289c7a2364fa5f4595cfedb8cca6a16, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

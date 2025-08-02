@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
-  lines: []
-  next: []
+  lines:
+  - Thank you for helping me. You've been really helpful.
+  - I truly mean it, little nit.
+  - May your step always be firm and your path always clear.
+  next:
+  - {fileID: 11400000, guid: 7131ed4cd3540bd4bb4d8ea46874ca22, type: 2}
   sceneToChangeTo: 
-  notifyGMDialogueDone: 
+  notifyGMDialogueDone: Lachesis
   openMap: 0

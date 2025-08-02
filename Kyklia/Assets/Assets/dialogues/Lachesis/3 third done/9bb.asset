@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
   m_Name: 9bb
   m_EditorClassIdentifier: 
-  multipleChoice: 0
-  choices: []
+  multipleChoice: 1
+  choices:
+  - Mhh, I understand.
+  - So what? Must the decision always be tragic?
   lines: []
-  next: []
+  next:
+  - {fileID: 11400000, guid: 5334c0368f204df449d794da99507167, type: 2}
+  - {fileID: 11400000, guid: 9fdde90911dcea741975e303014954f4, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

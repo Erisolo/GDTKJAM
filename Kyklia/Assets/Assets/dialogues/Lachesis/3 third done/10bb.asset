@@ -14,8 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
-  lines: []
-  next: []
+  lines:
+  - It doesn't have to. It isn't. It never is.
+  - If you mean if it always end, yes. It does.
+  - But a shorter life doesn't mean it is gloomy and melancholic.
+  - And even a melancholic life has cheery moments.
+  - The threads that Clothos spins are many, but the one with the joy is always present,
+    albeit in different measure.
+  - Is that tragic? To be destined to be happy?
+  next:
+  - {fileID: 11400000, guid: a79c454940477524c8576abb13b8d34f, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

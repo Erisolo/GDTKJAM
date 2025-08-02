@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
   m_Name: 5
   m_EditorClassIdentifier: 
-  multipleChoice: 0
-  choices: []
+  multipleChoice: 1
+  choices:
+  - May he rest in peace.
+  - And that's it? You don't care?
   lines: []
-  next: []
+  next:
+  - {fileID: 11400000, guid: 5334c0368f204df449d794da99507167, type: 2}
+  - {fileID: 11400000, guid: 8fea68d0a2965ec41a2aca5d6a3f87a3, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

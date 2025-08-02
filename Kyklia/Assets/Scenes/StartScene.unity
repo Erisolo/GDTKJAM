@@ -1991,6 +1991,14 @@ PrefabInstance:
       propertyPath: Lachesis.Array.data[4]
       value: 
       objectReference: {fileID: 11400000, guid: c28942ce40f26ce4e9abf01eba651d29, type: 2}
+    - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Lachesis.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 462571acfd088044486a2f2cecd3d3c4, type: 2}
+    - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Lachesis.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1f96542f34ca39e4bb2f130cccf56048, type: 2}
     - target: {fileID: 1696009476502100861, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
       propertyPath: m_Name
       value: gameManager

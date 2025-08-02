@@ -15,11 +15,11 @@ MonoBehaviour:
   multipleChoice: 1
   choices:
   - I understand. His life was bound to end.
-  - You talk like you're not the one deciding what happens. You just killed a child.
+  - 'You talk like you''re not the one deciding what happens. '
   lines: []
   next:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 5334c0368f204df449d794da99507167, type: 2}
+  - {fileID: 11400000, guid: e3122d72caa321b43a39beec0fad64a4, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

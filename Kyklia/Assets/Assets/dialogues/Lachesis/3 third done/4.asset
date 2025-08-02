@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
-  lines: []
-  next: []
+  lines:
+  - So it is.
+  - May Caronte take pity on his young soul, when the times so comes.
+  next:
+  - {fileID: 11400000, guid: b9e3fac4c5d00214d9d9d1178a5aeea8, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

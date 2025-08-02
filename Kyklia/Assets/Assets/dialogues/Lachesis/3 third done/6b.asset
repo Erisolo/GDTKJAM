@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
-  lines: []
-  next: []
+  lines:
+  - You saw how fragile his thread was.
+  - I'm surprised it even got through the pulleys without breaking.
+  - His time has already been decided.
+  next:
+  - {fileID: 11400000, guid: 7e7ee3bc0b78a364d92376d311439c59, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0
