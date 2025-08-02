@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Atropos.unity
     guid: 7f579fbb40e26f94a98fbdb7ea0f854b
+  - enabled: 1
+    path: Assets/Scenes/ClothosGame2.unity
+    guid: 21e32e776fafca9418e92e49e4385a1f
+  - enabled: 1
+    path: Assets/Scenes/ClothosGame3.unity
+    guid: 064859a3ad9c9094fa1110761ac4adfe
   m_configObjects: {}
