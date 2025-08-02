@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
-  lines: []
-  next: []
+  lines:
+  - The future is untrue, and his thread gets fuzzy while the war get's foggy. It's
+    hard to know exatcly what his fate is, even if it has already been sealed.
+  next:
+  - {fileID: 11400000, guid: 6d35576971952fa458cc79020ad2ce0b, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

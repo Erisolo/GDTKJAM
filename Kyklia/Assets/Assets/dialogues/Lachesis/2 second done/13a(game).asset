@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
-  lines: []
+  lines:
+  - Come, my dear.
   next: []
-  sceneToChangeTo: 
+  sceneToChangeTo: LachesisGame2
   notifyGMDialogueDone: 
   openMap: 0

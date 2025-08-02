@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
   m_Name: 12
   m_EditorClassIdentifier: 
-  multipleChoice: 0
-  choices: []
+  multipleChoice: 1
+  choices:
+  - Of course!
+  - No, if you don't mind.
   lines: []
-  next: []
+  next:
+  - {fileID: 11400000, guid: 9e327750440edf6469588fd949dbaebe, type: 2}
+  - {fileID: 11400000, guid: 59d04cbd204b7ea4190471760536f650, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

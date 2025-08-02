@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
-  lines: []
-  next: []
+  lines:
+  - Sadly, he did.
+  next:
+  - {fileID: 11400000, guid: 610280ee2e73bf541b6206a0ebaf5c2f, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

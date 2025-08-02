@@ -19,7 +19,8 @@ MonoBehaviour:
   - He's quite the young man.
   - Tall, handsome, hardworking...
   - He'd be very popular with the ladies if he wasn't so short-tempered.
-  next: []
+  next:
+  - {fileID: 11400000, guid: cebff8649dee48c40a472baa9fc6a945, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

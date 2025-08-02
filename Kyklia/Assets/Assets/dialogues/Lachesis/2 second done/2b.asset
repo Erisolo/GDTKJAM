@@ -20,7 +20,8 @@ MonoBehaviour:
   - We listen to the thread, we sing its melody.
   - It's quite soothing, actually.
   - This Diokles... he's so easy to read.
-  next: []
+  next:
+  - {fileID: 11400000, guid: 85e25af8dec68bb4a94eb856168a8c65, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

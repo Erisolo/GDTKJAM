@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 550823641}
   - component: {fileID: 550823640}
   m_Layer: 0
-  m_Name: purepng.com-child-girlpeoplefemalechildgirlkids-1121525110983yvzjq
+  m_Name: character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -340,7 +340,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: b20db22c6eafbf74bbbec09fdd65b63c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d8ef7a20d58dc2c478c51681acb44cfe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -360,8 +360,8 @@ Transform:
   m_GameObject: {fileID: 550823639}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.71, y: -1.17, z: 0}
-  m_LocalScale: {x: 0.4652, y: 0.4853, z: 1}
+  m_LocalPosition: {x: -5.24, y: 0.04, z: 0}
+  m_LocalScale: {x: 0.34310868, y: 0.38243097, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1607,7 +1607,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 13dd8a4718a51e947844cdcf562630cf, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4660377, g: 0.7044668, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

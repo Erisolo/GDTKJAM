@@ -17,7 +17,9 @@ MonoBehaviour:
   - I suppose that's Diokles.
   - Why do you sing while you work? Clothos does it too.
   lines: []
-  next: []
+  next:
+  - {fileID: 11400000, guid: 71a51cc2daa087f478c4c76216bc38b7, type: 2}
+  - {fileID: 11400000, guid: 7976c31e51ecd46488851f3de969077b, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0
