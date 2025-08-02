@@ -10,18 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: 2
+  m_Name: 0 AFTER 3RD
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
   lines:
-  - He isn't anything yet. Just a baby.
-  - But he's spartan, and his dad is a general.
-  - He's probably going to start training very soon.
-  - Spartans are always fighting.
-  - They're like children. and *I* would know.
+  - "\u266A\u266B<i>Cough and syrup, mum and dad</i>\u266A\u266B"
+  - "\u266A\u266B<i>You're oh so small, yor lungs are bad</i>\u266A\u266B"
+  - What a shame...
   next:
-  - {fileID: 11400000, guid: adea4b30ac479114c99a03ff31b32273, type: 2}
+  - {fileID: 11400000, guid: 97161987a57c57741b54b61051d4d47f, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

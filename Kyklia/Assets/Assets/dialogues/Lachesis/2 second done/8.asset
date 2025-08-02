@@ -18,7 +18,7 @@ MonoBehaviour:
   - Not too bad. He won't make it to forty, but has some wonderful years ahead of
     him.
   next:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 01e49617565e6ee44903f64b24599389, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

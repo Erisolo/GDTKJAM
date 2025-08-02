@@ -14,14 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
-  lines:
-  - He isn't anything yet. Just a baby.
-  - But he's spartan, and his dad is a general.
-  - He's probably going to start training very soon.
-  - Spartans are always fighting.
-  - They're like children. and *I* would know.
-  next:
-  - {fileID: 11400000, guid: adea4b30ac479114c99a03ff31b32273, type: 2}
+  lines: []
+  next: []
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

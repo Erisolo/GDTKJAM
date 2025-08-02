@@ -1983,6 +1983,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Lachesis.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: c00924a168e69f8409c7625097eb09d9, type: 2}
+    - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Lachesis.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: c28942ce40f26ce4e9abf01eba651d29, type: 2}
     - target: {fileID: 1696009476502100861, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
       propertyPath: m_Name
       value: gameManager
