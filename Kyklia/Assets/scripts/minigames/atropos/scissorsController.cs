@@ -9,6 +9,9 @@ public class scissorsController : MonoBehaviour
     [SerializeField] float timeTo;
     bool inDest = false;
     [SerializeField] float offset;
+    [SerializeField] GameObject fade;
+    [SerializeField] float fadeTime;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +30,16 @@ public class scissorsController : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                Debug.Log("finished");
+                inDest = false;
+                Invoke("notifyWin", 1.5f);
+                LeanTween.alpha(fade, 1f, fadeTime);
+                //pantalla en negro y sonido de tijeras
             }
         }
+    }
+    void notifyWin()
+    {
+        GameManager.Instance.addDialogueAsDone("Atropos");
+        GameManager.Instance.changeScene("Atropos");
     }
 }

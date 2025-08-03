@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LachesisGame2.unity
     guid: a3d1bbd59b1618d459743962ccab697a
+  - enabled: 1
+    path: Assets/Scenes/LachesisGame3.unity
+    guid: 33cf658fcef58fd4da21748da1226c44
   m_configObjects: {}
