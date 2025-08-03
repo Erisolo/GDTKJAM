@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 {
     //0= not met yet. 1, first level done. 2, waiting for second. 3, second level done. 4, waiting for third, 5 third done, 6 all done.
     int ClothosLevel = 0;
-    int LechesisLevel = 0;
+    int LachesisLevel = 0;
     int AtroposLevel = 0;
 
     //the first dialogues of the gals (for each state)
@@ -23,7 +23,8 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     [SerializeField] Image sceneTransicioner;
     [SerializeField] MapManager mapManager;
-
+    [SerializeField] dialogueScriptableObjects LachesisNotReady;
+    [SerializeField] dialogueScriptableObjects AtroposNotReady;
     private void Awake()
     {
         if (Instance == null)
@@ -64,6 +65,26 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(scene);
         }
     }
+
+    public void requestMinigame(string game)
+    {
+        //dos opciones, o lachesis o atropos
+        if(SceneManager.GetActiveScene().name == "Lachesis")
+        {
+            if (ClothosLevel > LachesisLevel)
+                changeScene(game);
+            else
+                DialogueManager.instance.startDialogue(LachesisNotReady);
+
+        }
+        else if(SceneManager.GetActiveScene().name == "Atropos")
+        {
+            if (LachesisLevel > AtroposLevel)
+                changeScene(game);
+            else
+                DialogueManager.instance.startDialogue(AtroposNotReady);
+        }
+    }
     void changeSceneAfterTween(string scene)
     {
         SceneManager.LoadScene(scene);
@@ -85,21 +106,16 @@ public class GameManager : MonoBehaviour
         if (moira == "Clothos")
         {
             ClothosLevel++;
+            mapManager.unlockZone(1);
         }
         else if (moira == "Lachesis")
         {
-            LechesisLevel++;
+            LachesisLevel++;
+            mapManager.unlockZone(2);
         }
         else if (moira == "Atropos")
         {
             AtroposLevel++;
-        }
-
-        //check if you've finished all of them to unlock the final area
-
-        if(ClothosLevel == 6 && LechesisLevel == 6 && AtroposLevel == 6)
-        {
-            //TODO:: DESBLOQUEAR LO DEL MAPA
         }
 
     }
@@ -113,7 +129,7 @@ public class GameManager : MonoBehaviour
         }
         else if (moira == "Lachesis")
         {
-            return Lachesis[LechesisLevel];
+            return Lachesis[LachesisLevel];
         }
         else if (moira == "Atropos")
         {

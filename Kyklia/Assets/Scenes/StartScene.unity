@@ -1984,6 +1984,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: AtroposNotReady
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e6947b51f7f0ba4d8786927126823d7, type: 2}
+    - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: LachesisNotReady
+      value: 
+      objectReference: {fileID: 11400000, guid: 27039482e2f285145a93c73d26783794, type: 2}
+    - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
       propertyPath: Atropos.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: c65b142df22be6249990a856c129ea9b, type: 2}

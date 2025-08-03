@@ -32,7 +32,11 @@ public class DialogueManager : MonoBehaviour
     }
     private void Start()
     {
-        if(GameManager.Instance != null)
+        if(actDialogo != null)
+        {
+            startDialogue(actDialogo);
+        }
+        else if(GameManager.Instance != null)
         {
             actDialogo = GameManager.Instance.requestDialogue(SceneManager.GetActiveScene().name);
             if (actDialogo != null)
@@ -125,7 +129,12 @@ public class DialogueManager : MonoBehaviour
         else if (actDialogo.sceneToChangeTo != "")
         {
             talking = false;
-            GameManager.Instance.changeScene(actDialogo.sceneToChangeTo);
+            if (actDialogo.isItAMiniGame)
+            {
+                GameManager.Instance.requestMinigame(actDialogo.sceneToChangeTo);
+            }
+            else
+                GameManager.Instance.changeScene(actDialogo.sceneToChangeTo);
         }
         else if(actDialogo.openMap)
         {

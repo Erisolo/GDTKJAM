@@ -18,5 +18,6 @@ MonoBehaviour:
   - Come, my dear.
   next: []
   sceneToChangeTo: LachesisGame2
+  isItAMiniGame: 1
   notifyGMDialogueDone: 
   openMap: 0

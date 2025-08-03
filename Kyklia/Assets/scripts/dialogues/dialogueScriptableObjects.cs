@@ -17,6 +17,7 @@ public class dialogueScriptableObjects : ScriptableObject
     public List<dialogueScriptableObjects> next;
 
     public string sceneToChangeTo;
+    public bool isItAMiniGame;
 
     public string notifyGMDialogueDone;
 

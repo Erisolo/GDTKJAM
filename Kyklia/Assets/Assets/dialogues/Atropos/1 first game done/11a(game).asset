@@ -18,5 +18,6 @@ MonoBehaviour:
   - Com, then.
   next: []
   sceneToChangeTo: AtroposGame
+  isItAMiniGame: 1
   notifyGMDialogueDone: 
   openMap: 0
