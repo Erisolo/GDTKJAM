@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  multipleChoice: 0
+  choices: []
+  lines:
+  - That, I understand.
+  - Death isn't always fair.
+  - But it is never malevolent.
+  - Theo was sick. He was in pain. His thread was so thin... Clothos could've never
+    done anything to make it thicker, Lachesis was as generous as she could, and
+    I cut as far as posible.
+  - But Theo was in pain. Theo couldn't breathe.
+  - Now, he doesn't have to.
+  - Now, he's free to dance and play to his heart's content.
+  - No doctor, no syrup, no mum crying over his bed at night.
+  next:
+  - {fileID: 11400000, guid: 0fb6540bd2122b447ad03b00c6a3426e, type: 2}
+  sceneToChangeTo: 
+  notifyGMDialogueDone: 
+  openMap: 0

@@ -20,8 +20,8 @@ MonoBehaviour:
   lines: []
   next:
   - {fileID: 11400000, guid: 110eb633d18df3a48b3c1f1fdd6ad800, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 1102bafe3f70209449594204771a5674, type: 2}
+  - {fileID: 11400000, guid: 1102bafe3f70209449594204771a5674, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

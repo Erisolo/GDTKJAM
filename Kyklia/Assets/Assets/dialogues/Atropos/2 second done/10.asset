@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
   m_Name: 10
   m_EditorClassIdentifier: 
-  multipleChoice: 0
-  choices: []
+  multipleChoice: 1
+  choices:
+  - Let's cut the next one.
+  - I need a break.
   lines: []
-  next: []
+  next:
+  - {fileID: 11400000, guid: c1854a188c4185d4c8efb14008fceea6, type: 2}
+  - {fileID: 11400000, guid: 87e34e49f4f4ce740a63364dc2ec9f43, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

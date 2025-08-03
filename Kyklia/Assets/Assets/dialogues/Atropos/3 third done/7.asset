@@ -10,13 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: 11b(leave)
+  m_Name: 7
   m_EditorClassIdentifier: 
-  multipleChoice: 0
-  choices: []
-  lines:
-  - Have it, then.
-  next: []
+  multipleChoice: 1
+  choices:
+  - That is true.
+  - Wait, "us"? Will you die?
+  lines: []
+  next:
+  - {fileID: 11400000, guid: 3d107b1860ea1e5478c2951da39b66f0, type: 2}
+  - {fileID: 11400000, guid: 18367812c2396df459a899a81717cbff, type: 2}
   sceneToChangeTo: 
-  notifyGMDialogueDone: 
-  openMap: 1
+  notifyGMDialogueDone: Atropos
+  openMap: 0

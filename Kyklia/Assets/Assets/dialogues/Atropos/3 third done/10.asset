@@ -10,13 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: 11b(leave)
+  m_Name: 10
   m_EditorClassIdentifier: 
-  multipleChoice: 0
-  choices: []
-  lines:
-  - Have it, then.
-  next: []
+  multipleChoice: 1
+  choices:
+  - I think I'm ready.
+  - I don't want to leave.
+  lines: []
+  next:
+  - {fileID: 11400000, guid: 2ed032db3096a204f91ef069a1a6088a, type: 2}
+  - {fileID: 11400000, guid: 2dafacb63c9bea249a20be494a3ea54b, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
-  openMap: 1
+  openMap: 0

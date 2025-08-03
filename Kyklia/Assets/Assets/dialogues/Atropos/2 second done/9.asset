@@ -14,8 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
-  lines: []
-  next: []
+  lines:
+  - Diokles enjoyed being a soldier.
+  - He didn't like the fighting that much, but he enjoyed the long walks and spending
+    time with his friends.
+  - He told stories every night by the fire. And those stories are still with his
+    companions.
+  - No historian will ever know his name. But he was loved. And he was important.
+  - My shears had trouble cutting such a thick and strong thread.
+  - May Caronte's boat be strong enough to carry such a robust boy.
+  next:
+  - {fileID: 11400000, guid: f7a5748b1a8d7b44d997caaf62ea1c9f, type: 2}
   sceneToChangeTo: 
-  notifyGMDialogueDone: 
+  notifyGMDialogueDone: Atropos
   openMap: 0

@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
-  lines: []
+  lines:
+  - Let's go, friend.
   next: []
-  sceneToChangeTo: 
+  sceneToChangeTo: AtroposGame
   notifyGMDialogueDone: 
   openMap: 0

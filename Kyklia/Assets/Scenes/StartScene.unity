@@ -2000,6 +2000,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: c32a2e4c2d2a7ea43b7c4b2ebd9e1a15, type: 2}
     - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Atropos.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: e61a059dd362f9249a3a8e762b50a753, type: 2}
+    - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Atropos.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1f658279a6696684db6e87876795c93a, type: 2}
+    - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Atropos.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3d107b1860ea1e5478c2951da39b66f0, type: 2}
+    - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
       propertyPath: Lachesis.Array.data[3]
       value: 
       objectReference: {fileID: 11400000, guid: c00924a168e69f8409c7625097eb09d9, type: 2}

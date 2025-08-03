@@ -14,8 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
-  lines: []
-  next: []
+  lines:
+  - Yes, as all creatures do.
+  - Did Tryphania die for something?
+  - Will you die for something?
+  - No, no one does.
+  - Or, if they do, it is in vain. Death doesn't have winner or losers, death doesn't
+    stad for anything. Corpses can't argumentate and dead souls can't touch the living.
+  next:
+  - {fileID: 11400000, guid: c980b0eedb5d6d946b92dad2a6540eee, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

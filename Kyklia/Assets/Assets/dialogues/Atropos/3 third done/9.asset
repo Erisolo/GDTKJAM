@@ -10,13 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: 11b(leave)
+  m_Name: 9
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
   lines:
-  - Have it, then.
-  next: []
+  - Your company has been the most enjoyable, but I'm sure you're tired.
+  - There's a little crack there, on the window, there.
+  - You can leave whenever you're ready.
+  next:
+  - {fileID: 11400000, guid: 7e7f256d1e2374c44b8819f042d8043a, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
-  openMap: 1
+  openMap: 0

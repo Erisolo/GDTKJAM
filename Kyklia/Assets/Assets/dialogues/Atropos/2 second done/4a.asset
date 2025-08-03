@@ -15,9 +15,9 @@ MonoBehaviour:
   multipleChoice: 0
   choices: []
   lines:
-  - 
-  - 
-  next: []
+  - Should I not be?
+  next:
+  - {fileID: 11400000, guid: 08e017b8aea88f24f8889573890a16be, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0
