@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: goDoSomethingElse
+  m_Name: 4
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
   lines:
-  - Hi, little nit.
-  - Don't you have anything to do?
-  - I'm not very busy over here, dear spider.
-  next: []
+  - I haven't announced mself yet, excuse my manners.
+  - I am Atropos, the inevitable.
+  - I am Atropos, the inevitable.
+  next:
+  - {fileID: 11400000, guid: 01446825fa93bd94da8f3c5bc48193f7, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
-  openMap: 1
+  openMap: 0

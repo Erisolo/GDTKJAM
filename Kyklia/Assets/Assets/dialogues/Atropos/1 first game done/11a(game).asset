@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: goDoSomethingElse
+  m_Name: 11a(game)
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
   lines:
-  - But first, don't you see how burried my sisters are?
-  - Yet my desk is barren, and my scissors bored.
+  - Com, then.
   next: []
-  sceneToChangeTo: 
+  sceneToChangeTo: AtroposGame
   notifyGMDialogueDone: 
-  openMap: 1
+  openMap: 0

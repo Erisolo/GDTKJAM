@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: goDoSomethingElse
+  m_Name: 5
   m_EditorClassIdentifier: 
-  multipleChoice: 0
-  choices: []
-  lines:
-  - But first, don't you see how burried my sisters are?
-  - Yet my desk is barren, and my scissors bored.
-  next: []
+  multipleChoice: 1
+  choices:
+  - Pleased to meet you, Atropos. I'm Athy.
+  - So, you're the one who cuts the thread.
+  lines: []
+  next:
+  - {fileID: 11400000, guid: 4851cf9239b79374496d087cbd1ba8d8, type: 2}
+  - {fileID: 11400000, guid: 01944926cd9fc7640a5b06a815a1070c, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
-  openMap: 1
+  openMap: 0

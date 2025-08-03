@@ -250,7 +250,7 @@ MonoBehaviour:
   m_text: dialogo
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0b8ad884e4a01cb4aabd71c2adf44412, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 4327801134490713586, guid: 0b8ad884e4a01cb4aabd71c2adf44412, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1086,7 +1086,7 @@ RectTransform:
   m_GameObject: {fileID: 1244597678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.04, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1174999653}
@@ -1116,7 +1116,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 0f533cf8392def64ea855405725a1210, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1984,6 +1984,22 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Atropos.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: c65b142df22be6249990a856c129ea9b, type: 2}
+    - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Atropos.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 156061cbc198a1e48b3a027ec97dd701, type: 2}
+    - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Atropos.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: defd9c3450359864b8a87c8ff1238c08, type: 2}
+    - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: Atropos.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: c32a2e4c2d2a7ea43b7c4b2ebd9e1a15, type: 2}
+    - target: {fileID: 253881851291028044, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
       propertyPath: Lachesis.Array.data[3]
       value: 
       objectReference: {fileID: 11400000, guid: c00924a168e69f8409c7625097eb09d9, type: 2}
@@ -2002,6 +2018,18 @@ PrefabInstance:
     - target: {fileID: 1696009476502100861, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
       propertyPath: m_Name
       value: gameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485053509459231529, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: m_Color.b
+      value: 0.1856105
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485053509459231529, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.429639
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485053509459231529, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7509433
       objectReference: {fileID: 0}
     - target: {fileID: 6755942693746862106, guid: d55a12a1873c95e48abe94ded17d1bd3, type: 3}
       propertyPath: m_LocalPosition.x

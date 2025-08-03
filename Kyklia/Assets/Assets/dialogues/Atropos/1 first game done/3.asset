@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: goDoSomethingElse
+  m_Name: 3
   m_EditorClassIdentifier: 
-  multipleChoice: 0
-  choices: []
-  lines:
-  - But first, don't you see how burried my sisters are?
-  - Yet my desk is barren, and my scissors bored.
-  next: []
+  multipleChoice: 1
+  choices:
+  - Did you have to do that?
+  - ...
+  lines: []
+  next:
+  - {fileID: 11400000, guid: 25e261be8a472794aab59ec25709d885, type: 2}
+  - {fileID: 11400000, guid: 50110156a586e6d429ee177b4b0324ec, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
-  openMap: 1
+  openMap: 0

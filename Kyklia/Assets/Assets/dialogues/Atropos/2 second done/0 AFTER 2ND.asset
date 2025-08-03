@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: goDoSomethingElse
+  m_Name: 0 AFTER 2ND
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
   lines:
-  - But first, don't you see how burried my sisters are?
-  - Yet my desk is barren, and my scissors bored.
-  next: []
+  - "\u266A\u266B<i>Your shield is cold, your sword in sharts</i>\u266A\u266B"
+  - "\u266A\u266B<i>Your blood remains, your name does not</i>\u266A\u266B"
+  next:
+  - {fileID: 11400000, guid: e56720a5ab766f4499cdf178bed6f562, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
-  openMap: 1
+  openMap: 0

@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5ca40ee8317f08418924719a80bd092, type: 3}
-  m_Name: goDoSomethingElse
+  m_Name: 6a
   m_EditorClassIdentifier: 
   multipleChoice: 0
   choices: []
   lines:
-  - But first, don't you see how burried my sisters are?
-  - Yet my desk is barren, and my scissors bored.
-  next: []
+  - And what good would that do?
+  - What joy is there in an infinite thread?
+  - How could any thread begin if no thread ends?
+  next:
+  - {fileID: 11400000, guid: 5c42c540737374348873169d1b865dfe, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
-  openMap: 1
+  openMap: 0
