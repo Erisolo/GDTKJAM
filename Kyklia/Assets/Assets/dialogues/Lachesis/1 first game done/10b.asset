@@ -19,7 +19,7 @@ MonoBehaviour:
   - We are necessary.
   - You're too young to understand, dear spider.
   next:
-  - {fileID: 11400000}
+  - {fileID: 11400000, guid: d94cacafa8513e04685e4bd9b60a6999, type: 2}
   sceneToChangeTo: 
   notifyGMDialogueDone: 
   openMap: 0

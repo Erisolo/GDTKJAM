@@ -1880,6 +1880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 3
+  leveler: {fileID: 1738219742}
 --- !u!61 &1408331050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2139,6 +2140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
+  leveler: {fileID: 1738219742}
 --- !u!50 &1564269089
 Rigidbody2D:
   serializedVersion: 4
@@ -2226,6 +2228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 2
+  leveler: {fileID: 1738219742}
 --- !u!61 &1640133170
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2526,6 +2529,7 @@ MonoBehaviour:
   leftPolea: {fileID: 921307697}
   lowerPerKilo: 0.2
   timeToMove: 0.5
+  win: 0
   TotalWeights: 5
   brilloBorde: {fileID: 1707998012}
 --- !u!1 &1758133993
@@ -2706,6 +2710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 8
+  leveler: {fileID: 1738219742}
 --- !u!61 &1925567584
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3080,6 +3085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 4
+  leveler: {fileID: 1738219742}
 --- !u!61 &2120838901
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class dragObject : MonoBehaviour
     bool dragging = false;
     Vector3 offset;
     public int weight;
+    [SerializeField] levelerManager leveler;   
 
     void Start()
     {
@@ -20,20 +21,28 @@ public class dragObject : MonoBehaviour
 
     public void startDrag()
     {
-        offset = transform.position - cam.ScreenToWorldPoint(Input.mousePosition);
-        rb.gravityScale = 0;
-        rb.velocity = Vector3.zero;
-        dragging = true;
+        if(!leveler.win)
+        {
+            offset = transform.position - cam.ScreenToWorldPoint(Input.mousePosition);
+            rb.gravityScale = 0;
+            rb.velocity = Vector3.zero;
+            dragging = true;
+        }
+        
     }
 
     public void stopDrag()
     {
-        dragging= false;
+        dragging = false;
         rb.gravityScale = 1;
     }
 
     private void Update()
     {
+        if (leveler.win)
+        {
+            stopDrag();
+        }
         if (dragging)
         {
             transform.position = cam.ScreenToWorldPoint(Input.mousePosition) + offset;

@@ -18,6 +18,7 @@ public class levelerManager : MonoBehaviour
     float ogLeftPlateHeight;
     float ogLeftPoleaHeight;
     float beamSize;
+    public bool win = false;
 
     [SerializeField] int TotalWeights;
     [SerializeField] GameObject brilloBorde;
@@ -97,9 +98,8 @@ public class levelerManager : MonoBehaviour
             //and now we check if the scales are equal
             if(rightPlate.GetComponent<plateLowererController>().getTotalWeight()*2 == leftPlate.GetComponent<plateLowererController>().getTotalWeight())
             {
-                CancelInvoke();
-                Debug.Log("game won");
-                //TODO: IMPLEMENTAR FIN DE JUEGO
+                win = true;
+                Invoke("notifyWin", 1);
             }
 
         }
@@ -109,5 +109,11 @@ public class levelerManager : MonoBehaviour
     {
         //make ding sound
         LeanTween.alpha(brilloBorde, 1f, 0.3f).setFrom(0f).setLoopPingPong(1);
+    }
+
+    void notifyWin()
+    {
+        GameManager.Instance.addDialogueAsDone("Lachesis");
+        GameManager.Instance.changeScene("Lachesis");
     }
 }
