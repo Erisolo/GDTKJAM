@@ -7,7 +7,6 @@ public class dragObject : MonoBehaviour
     Camera cam;
     Rigidbody2D rb;
     bool dragging = false;
-    Collider2D _collider;
     Vector3 offset;
     public int weight;
 
@@ -15,12 +14,11 @@ public class dragObject : MonoBehaviour
     {
         cam = Camera.main;
         rb = GetComponent<Rigidbody2D>();
-        _collider = GetComponent<Collider2D>();
         rb.freezeRotation = true;
         //rb.gravityScale = 1;
     }
 
-    private void OnMouseDown()
+    public void startDrag()
     {
         offset = transform.position - cam.ScreenToWorldPoint(Input.mousePosition);
         rb.gravityScale = 0;
@@ -28,7 +26,7 @@ public class dragObject : MonoBehaviour
         dragging = true;
     }
 
-    private void OnMouseUp()
+    public void stopDrag()
     {
         dragging= false;
         rb.gravityScale = 1;

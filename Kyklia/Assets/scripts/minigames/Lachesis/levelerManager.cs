@@ -20,6 +20,7 @@ public class levelerManager : MonoBehaviour
     float beamSize;
 
     [SerializeField] int TotalWeights;
+    [SerializeField] GameObject brilloBorde;
     private void Awake()
     {
         if (Instance == null)
@@ -32,7 +33,7 @@ public class levelerManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ogLeftPlateHeight = leftPlate.transform.position.y;
+        ogLeftPlateHeight = leftPlate.transform.localPosition.y;
         ogRightPlateHeight = rightPlate.transform.position.y;
         ogLeftPoleaHeight = leftPolea.transform.position.y;
         beamSize = beam.GetComponent<SpriteRenderer>().bounds.size.x;
@@ -48,6 +49,7 @@ public class levelerManager : MonoBehaviour
     {
         if(p.gameObject == rightPlate)
         {
+            CancelInvoke();
             LeanTween.cancel(rightPlate);
             float offset = p.getTotalWeight() * lowerPerKilo;
             Vector2 futurePos = new Vector2(rightPlate.transform.position.x,  ogRightPlateHeight - offset);
@@ -69,10 +71,17 @@ public class levelerManager : MonoBehaviour
         }
         else
         {
+            CancelInvoke();
             LeanTween.cancel(leftPlate);
             float offset = p.getTotalWeight() * lowerPerKilo;
-            Vector2 futurePos = new Vector2(leftPlate.transform.position.x, ogLeftPlateHeight - offset);
-            LeanTween.move(leftPlate, futurePos, timeToMove);
+            Vector2 futurePos = new Vector2(leftPlate.transform.localPosition.x, ogLeftPlateHeight - offset / leftPolea.transform.lossyScale.y);
+            LeanTween.moveLocal(leftPlate, futurePos, timeToMove);
+        }
+        //we check if the plates are balaced, for the ding sound
+        if (rightPlate.GetComponent<plateLowererController>().getTotalWeight()!= 0 &&
+            rightPlate.GetComponent<plateLowererController>().getTotalWeight()*2 == leftPlate.GetComponent<plateLowererController>().getTotalWeight())
+        {
+            Invoke("ding", timeToMove);
         }
 
         //now we check if this combination is right
@@ -86,11 +95,19 @@ public class levelerManager : MonoBehaviour
         if (actWeights == TotalWeights) //si estan todos
         {
             //and now we check if the scales are equal
-            if(rightPlate.GetComponent<plateLowererController>().getTotalWeight() == leftPlate.GetComponent<plateLowererController>().getTotalWeight())
+            if(rightPlate.GetComponent<plateLowererController>().getTotalWeight()*2 == leftPlate.GetComponent<plateLowererController>().getTotalWeight())
             {
+                CancelInvoke();
+                Debug.Log("game won");
                 //TODO: IMPLEMENTAR FIN DE JUEGO
             }
 
         }
+    }
+
+    void ding()
+    {
+        //make ding sound
+        LeanTween.alpha(brilloBorde, 1f, 0.3f).setFrom(0f).setLoopPingPong(1);
     }
 }
