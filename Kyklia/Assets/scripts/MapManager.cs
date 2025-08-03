@@ -38,9 +38,4 @@ public class MapManager : MonoBehaviour
             Debug.Log("WAIT A FUCKING SECOND");
         }
     }
-
-    public void unlockZone(int i)
-    {
-        buttons[i].gameObject.SetActive(true);
-    }
 }

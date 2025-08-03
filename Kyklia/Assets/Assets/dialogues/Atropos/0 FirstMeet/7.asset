@@ -17,7 +17,9 @@ MonoBehaviour:
   lines:
   - But I don't wish to frighten you with my grim appearance and tragic occupation.
   - My craft is as noble and free of malice as a mother caring for a child.
-  next: []
+  next:
+  - {fileID: 11400000, guid: 6dda70fca51e55a4d96c79b91d55d389, type: 2}
   sceneToChangeTo: 
+  isItAMiniGame: 0
   notifyGMDialogueDone: 
   openMap: 0

@@ -106,12 +106,10 @@ public class GameManager : MonoBehaviour
         if (moira == "Clothos")
         {
             ClothosLevel++;
-            mapManager.unlockZone(1);
         }
         else if (moira == "Lachesis")
         {
             LachesisLevel++;
-            mapManager.unlockZone(2);
         }
         else if (moira == "Atropos")
         {
@@ -149,5 +147,12 @@ public class GameManager : MonoBehaviour
     public void openMap()
     {
         mapManager.openMap();
+    }
+
+    public void reset()
+    {
+        ClothosLevel = 0;
+        LachesisLevel = 0;
+        AtroposLevel = 0;
     }
 }

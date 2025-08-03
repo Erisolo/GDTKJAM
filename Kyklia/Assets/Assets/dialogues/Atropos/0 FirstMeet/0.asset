@@ -19,7 +19,8 @@ MonoBehaviour:
   - I've seen you craw across our workshop, carrying that twisted leg behind you.
   - What brings such a creature to my humble work station?
   next:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: b2dd86dd08f21ec4c805fad674c7c8c0, type: 2}
   sceneToChangeTo: 
+  isItAMiniGame: 0
   notifyGMDialogueDone: 
   openMap: 0

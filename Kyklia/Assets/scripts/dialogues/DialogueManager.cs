@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -18,6 +19,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] float letterDelay = 0.05f;
     [SerializeField] List<Button> answerOptions = new List<Button>();
     bool talking = false;
+    [SerializeField] Image panel;
 
     private void Awake()
     {
@@ -140,6 +142,16 @@ public class DialogueManager : MonoBehaviour
         {
             talking = false;
             GameManager.Instance.openMap();
+        }
+        else    //self destroy
+        {
+            //fadeout
+            LeanTween.value(gameObject, 1f, 0f, 0.5f).setOnUpdate((float val) =>
+            {
+                Color newColor = panel.color;
+                newColor.a = val;
+                panel.color = newColor;
+            }).setOnComplete(() => { gameObject.SetActive(false); dialogueText.gameObject.SetActive(false); });
         }
     }
 

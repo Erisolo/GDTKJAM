@@ -1207,13 +1207,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72f8a8ce71071574192e7a23357e5d50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actDialogo: {fileID: 11400000, guid: 4bca64d83e32fda4cbd92f764581f39c, type: 2}
+  actDialogo: {fileID: 0}
   dialogueText: {fileID: 763344450}
   letterDelay: 0.05
   answerOptions:
   - {fileID: 1912915575}
   - {fileID: 364147164}
   - {fileID: 334438892}
+  panel: {fileID: 0}
 --- !u!4 &1018742574
 Transform:
   m_ObjectHideFlags: 0

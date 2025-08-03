@@ -734,13 +734,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72f8a8ce71071574192e7a23357e5d50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actDialogo: {fileID: 11400000, guid: 4bca64d83e32fda4cbd92f764581f39c, type: 2}
+  actDialogo: {fileID: 0}
   dialogueText: {fileID: 1049678903}
   letterDelay: 0.05
   answerOptions:
   - {fileID: 1519096788}
   - {fileID: 1187296446}
   - {fileID: 1812354108}
+  panel: {fileID: 0}
 --- !u!1 &984496702
 GameObject:
   m_ObjectHideFlags: 0

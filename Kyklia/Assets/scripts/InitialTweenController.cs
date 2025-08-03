@@ -43,7 +43,12 @@ public class InitialTweenController : MonoBehaviour
         }
         else
         {
-            Invoke("showPanel", timesToWait[actTween]);
+            if(DialogueManager.instance.isActiveAndEnabled)
+                Invoke("showPanel", timesToWait[actTween]);
+            else 
+            {
+                GameManager.Instance.changeScene("Menu");
+            }
             
         }
     }
