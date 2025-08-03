@@ -18,6 +18,7 @@ MonoBehaviour:
   - Come, my gues, see.
   - Guide my hand.
   next: []
-  sceneToChangeTo: 
+  sceneToChangeTo: AtroposGame
+  isItAMiniGame: 1
   notifyGMDialogueDone: 
   openMap: 0
