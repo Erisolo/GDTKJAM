@@ -15,7 +15,7 @@ MonoBehaviour:
   multipleChoice: 0
   choices: []
   lines:
-  - Com, then.
+  - Come, then.
   next: []
   sceneToChangeTo: AtroposGame
   isItAMiniGame: 1

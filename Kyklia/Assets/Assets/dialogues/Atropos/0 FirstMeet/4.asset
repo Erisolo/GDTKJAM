@@ -17,9 +17,9 @@ MonoBehaviour:
   lines:
   - I haven't announced mself yet, excuse my manners.
   - I am Atropos, the inevitable.
-  - I am Atropos, the inevitable.
   next:
   - {fileID: 11400000, guid: 01446825fa93bd94da8f3c5bc48193f7, type: 2}
   sceneToChangeTo: 
+  isItAMiniGame: 0
   notifyGMDialogueDone: 
   openMap: 0

@@ -25,7 +25,9 @@ MonoBehaviour:
   - And such, it will be over.
   - But until then, Clothos' wheel will keep spinning, Lachesis scale weighting,
     and my scissors cutting.
-  next: []
+  next:
+  - {fileID: 11400000, guid: 3d107b1860ea1e5478c2951da39b66f0, type: 2}
   sceneToChangeTo: 
+  isItAMiniGame: 0
   notifyGMDialogueDone: 
   openMap: 0
